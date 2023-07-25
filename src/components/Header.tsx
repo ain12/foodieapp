@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Navbar from './Navbar';
 import Home from './Home';
 import '../assets/css/header.scss'

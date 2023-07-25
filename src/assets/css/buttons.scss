@@ -1,0 +1,63 @@
+button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #dcd5d5;
+        color: #000;
+    }
+}
+
+.register {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+
+    &:hover {
+        background-color: #302626;
+        color: #fff;
+    }
+}
+
+.find {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+
+    &:hover {
+        background-color: #302626;
+        color: #fff;
+    }
+}

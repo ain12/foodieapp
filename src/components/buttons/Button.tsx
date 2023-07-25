@@ -1,9 +1,8 @@
 'use client';
 
 import React from 'react'
-import { IconType } from "react-icons";
-
-
+import { IconType } from "react-icons"
+import '../../assets/css/buttons.scss'
 
 interface ButtonProps {
     text: string;
