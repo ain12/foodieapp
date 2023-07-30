@@ -1,13 +1,13 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import '../assets/css/header.scss'
+import FullContainer from './utils/FullContainer';
 
 function Header() {
   return (
-    <div className='wrapper'>
+    <FullContainer>
         <Navbar />
         <Home />
-    </div>
+    </FullContainer>
   )
 }
 
