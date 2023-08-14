@@ -1,0 +1,83 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "title title list1 list2"
+    "credits credits credits credits";
+
+    .div-1, .div-2, .div-3 {
+        padding: 5rem 0;
+    }
+
+    .div-1 {
+        grid-area: title;
+        padding-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & .social-icons {
+            display: flex;
+            gap: 2rem;
+            align-items: end;
+        }
+    }
+    
+    .div-2 {
+        grid-area: list1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-3 {
+        grid-area: list2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+
+    & .credits {
+        grid-area: credits;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+        hr {
+            width: 100%;
+            margin: 0;
+        }
+
+        p {
+            padding: 2rem 0;
+        }
+    }
+}
